@@ -1,0 +1,28 @@
+body {
+    font-family:  bookman old style,  sans-serif; /* Семейство шрифтов */
+    font-size:20px; /* Размер основного шрифта в <p></p>  */
+    background-color: #3adb1288; /* Цвет фона веб-страницы */
+    color: #0718ffc4; /* Цвет основного текста */ 
+}
+h1 {
+    color: #0b3de2; /* Цвет заголовка */
+    font-size: 30px; /* Размер шрифта в пунктах */
+    font-family: Comic Sans MS, serif; /* Семейство шрифтов */
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: rgb(43, 122, 49);
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
